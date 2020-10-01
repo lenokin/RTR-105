@@ -6,6 +6,8 @@ Ieraksts1
 ieraksts2
 ieraksts3
 
+#23.09.2020
+
 VirtualBox --startvm XP
     2  quartus
     3  firefox
@@ -61,3 +63,54 @@ VirtualBox --startvm XP
    53  whoami
    54  groups
    55  history
+   
+   
+   #1.10.2020
+   VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  echo $?
+    5  ls -lt
+    6  pwd
+    7  echo $?
+    8  ls -lt
+    9  ls Downloads/
+   10  echo $?
+   11  ls Downloads/
+   12  echo $?
+   13  nano a.sh
+   14  ls -lt
+   15  ./a.sh
+   16  echo $?
+   17  ./b.sh
+   18  echo $?
+   19  history
+   20  echo$?
+   21  echo $?
+   22  ls
+   23  echo $?
+   24  ls Documents/
+   25  echo $?
+   26  ls Document/
+   27  echo $?
+   28  git
+   29  pwd
+   30  ls -l
+   31  git clone https://github.com/lenokin/RTR-105 
+   32  ls -lt
+   33  cd RTR-105/
+   34  ls -lt
+   35  ls -lta
+   36  cd .git
+   37  pwd
+   38  ls -lt
+   39  cd
+   40  pwd
+   41  ls -lt
+   42  git clone https://github.com/lenokin/RTR-105 
+   43  mkdir RTR-105
+   44  echo $?
+   45  git clone https://github.com/lenokin/RTR-105 
+   46  echo $?
+   47  history
+
