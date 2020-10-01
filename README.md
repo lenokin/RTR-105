@@ -113,4 +113,84 @@ VirtualBox --startvm XP
    45  git clone https://github.com/lenokin/RTR-105 
    46  echo $?
    47  history
+   48  ls -lt
+   49  mv RTR-105/ RTR-105_old/
+   50  ls -lt
+   51  git clone https://github.com/lenokin/RTR-105 
+   52  ls -lt
+   53  git clone https://github.com/lenokin/RTR-105 RTR-105_new
+   54  ls -lt
+   55  rm -rf RTR-105
+   56  ls -lt
+   57  git clone https://github.com/lenokin/RTR-105
+   58  cd RTR-105/
+   59  ls -lt
+   60  cd ..
+   61  ls -lt
+   62  rm RTR-105
+   63  rm -r  RTR-105
+   64  ls -lt
+   65  rm -rf RTR*
+   66  ls -lt
+   67  sudo apt-get update
+   68  git clone https://github.com/lenokin/RTR-105
+   69  cd RTR-105/
+   70  mkdir GCC
+   71  cd GCC/
+   72  nano code.sh
+   73  nano code.c
+   74  ls -lt
+   75  cat code.sh
+   76  cat code.c
+   77  ls -lt code.sh
+   78  lt -ls code.c
+   79  ls -lt code.c
+   80  ./code.c
+   81  chmod 754 code.sh
+   82  ls -lt code.sh
+   83  chmod 754 code.c
+   84  ls -lt code.c
+   85  chmod +x code.sh
+   86  ls -lt code.sh
+   87  chmod -x code.sh
+   88  ls -lt code.sh
+   89  code.sh
+   90  home/user/RTR-105/code.sh
+   91  code.c
+   92  rm -rf GCC*
+   93  nano code.c
+   94  ls -lt
+   95  chmod -x code.c
+   96  chmod +x code.sh
+   97  ls -lt
+   98  gcc code.c
+   99  echo $0
+  100  echo $?
+  101  gcc code.c
+  102  echo $?
+  103  ls -lt
+  104  cat a.out
+  105  ls -lt
+  106  pwd
+  107  echo $PATH
+  108  a.out
+  109  ./a.out
+  110  /home/user/RTR-105/GCC/code.sh
+  111  ~/RTR-105/GCC/code/sh
+  112  ~/RTR-105/GCC/code.sh
+  113  ./code.sh
+  114  ./a.out
+  115  cp code.c code2.c
+  116  ls -lt
+  117  nano code2.c
+  118  ls -lt
+  119  gcc code2.c
+  120  echo $?
+  121  ls -lt
+  122  gcc code.c -o code.out
+  123  gcc code2.c -o code2.out
+  124  ls -lt
+  125  cat code.c
+  126  cat code2.c
+  127  history
 
