@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+long a,b;
+long c;
+printf("Ievadiet skaitļu 400 000:\n");
+scanf("%ld", &a);
+printf("Ievadiet skaitļu 100 000:\n");
+scanf("%ld", &b);
+c=a*b;
+printf("Reizināšanas rezultāts ir: %ld * %ld = %ld\n", a,b,c);  
+}
