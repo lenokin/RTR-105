@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    double x, y, a0, a499, a500, S0, S499, S500;
+    y = atan(x);
+    printf("Ievadiet x vertibu: ");
+    scanf("%lf", &x);
+    printf("y=atan(%.2f)=%.2f\n", x, y);
+    
+    a0 = pow(-1,0)*pow(x,2*0+1)/(2*500+1);
+    S0 = a0;
+    printf("a0 = %.2f\t%8.2f\t%8.2f\n",x,a0,S0);
+    
+    a499 = pow(-1,499)*pow(x,2*499+1)/(2*499+1);
+    printf("a499 = %.2f\t%8.2f\n",x,a499);
+    
+    a500 = pow(-1,500)*pow(x,2*500+1)/(2*500+1);
+    printf("a500 = %.2f\t%8.2f\n",x,a500);
+}
+
+
+
+
+
+/*void main(){
+    double x=2.05,y,a0,a499,S0,S499;
+    int k=0;
+    y = atan(x);
+    printf("y=atan(%.2f)=%.2f\n",x,y);
+    
+    while(){
+        a = pow(-1,k)*pow(x,2*k+1)/(1.);
+        S = a;
+        printf()
+    }
+    
+    
+
+}
+*/
+/*
+void main(){
+    double x,y,yy;
+    printf("Ievadiet x: ");
+    scanf("%lf", &x);
+    y = atan(x);
+    printf("standarta funkcija atan - y=atan(%.2f)=%.2f\n",x,y);
+    
+    yy = mans_tan(x);
+    printf("lietotaaja funkcija - y=mans_tan(%.2f)=%.2f\n",x,yy);
+}
+*/
