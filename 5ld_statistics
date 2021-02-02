@@ -1,3 +1,7 @@
+/* Ir pilnigais saprotams kā strādāt ar burbuļu metode, kāpēc tur ir vajadzīgs cikls un masīvs. 
+Bet nav saprotams par to, ka uzrakstīt kodu, lai masivu izveido lietotājs. 
+*/
+
 #include<stdio.h>
 #include<math.h>
 int main(){
