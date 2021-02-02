@@ -1,3 +1,8 @@
+/* Šeit ir pilnigais saprotams, ko darīt, lai dabūt no lietotāja ciparu un paradīt to arctg. 
+Arī ir saprotams, ka Teilora rindā ir 500 elementi, kā reķināt a0, a1, a2, S0, S1, S2 utt. 
+Bet neskatoties uz to, nav nejausmas, kā un kādu kodu uzrakstīt, lai dabūt a499 un a500. 
+Kaut ko darīt ar masīvu, tas ir ok, bet tālāk, nezinu.
+*/
 
 #include<stdio.h>
 #include<math.h>
